@@ -1,0 +1,7 @@
+services:
+  simple-request-sender:
+    build: .
+    container_name: simple-request-sender
+    restart: unless-stopped
+    volumes:
+      - ./requests.json:/data/requests.json

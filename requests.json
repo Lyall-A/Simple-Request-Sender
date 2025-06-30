@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Google",
+        "url": "https://www.google.com",
+        "sendOnStart": true,
+        "interval": 60000
+    }
+]
